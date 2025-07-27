@@ -1,0 +1,7 @@
+dotenv==0.9.9
+loguru==0.7.3
+orjson==3.11.1
+python-dotenv==1.1.1
+regex==2024.11.6
+slack_bolt==1.23.0
+slack_sdk==3.36.0
