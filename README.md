@@ -33,11 +33,10 @@ python main.py
 
 # 시공봇 배포 방법
 
-아래 유튜브 영상 참고
-
+아래 유튜브 영상 참고  
 👉 [무료로 서버 배포하는 방법 (Koyeb으로 5분 만에 배포)](https://youtu.be/Rhp911TB0lo)
 
-- Koyeb 으로 배포를 하실 때에는 Self Ping 을 위해 KOYEB_URL 환경변수를 추가해주세요. (https:// 가 포함되어야 합니다)
-- KOYEB_URL 은 우리가 배포한 서버의 url 주소입니다. (아래 이미지 참고)
+Koyeb 으로 배포한 후에는 Self Ping 을 위해 KOYEB_URL 환경변수를 추가해주세요. (`https://` 가 포함되어야 합니다)
 
-![](https://drive.usercontent.google.com/download?id=1O_zXUziDY5SZjMs5kS5_NhJcdERGVwIc&export=view&authuser=0)
+KOYEB_URL 은 koyeb 으로 배포한 서버의 url 주소입니다. (아래 이미지 참고)
+  <img src="https://lh3.googleusercontent.com/d/1O_zXUziDY5SZjMs5kS5_NhJcdERGVwIc">
