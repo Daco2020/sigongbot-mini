@@ -1,15 +1,44 @@
 import asyncio
 import signal
+from aiohttp import web
 from slack_bolt.adapter.socket_mode.aiohttp import AsyncSocketModeHandler
 from config import settings
 from slack.event_handler import app as slack_app
 
-async def main():  
+async def health_check(request):
+    return web.Response(text="OK", status=200)
+
+async def main():
+    # HTTP 서버 설정
+    app = web.Application()
+    app.router.add_get("/", health_check)
+    app.router.add_get("/health", health_check)
+    runner = web.AppRunner(app)
+    await runner.setup()
+    site = web.TCPSite(runner, "0.0.0.0", 8000)
+    
+    # Slack 핸들러 설정
     handler = AsyncSocketModeHandler(
         app=slack_app,
         app_token=settings.SLACK_APP_TOKEN,
     )
-    await handler.start_async()
+    
+    try:
+        # HTTP 서버 시작
+        await site.start()
+        print("Health check server started on port 8000")
+        
+        # Slack 연결 시작
+        await handler.start_async()
+        print("Slack Socket Mode 연결 성공")
+        
+    finally:
+        await handler.close_async()
+        await runner.cleanup()
+        print("서버가 종료되었습니다.")
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    try:
+        asyncio.run(main())
+    except KeyboardInterrupt:
+        print("\n프로그램을 종료합니다...")
