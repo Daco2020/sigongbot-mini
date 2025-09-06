@@ -25,23 +25,22 @@ DUE_DATES = [
     datetime.datetime(2025, 8, 19, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 추가2회차
     datetime.datetime(2025, 8, 26, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 추가3회차
     datetime.datetime(2025, 9, 2, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 추가4회차
-    datetime.datetime(2025, 9, 9, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 0회차
-    datetime.datetime(2025, 9, 16, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 1회차
-    datetime.datetime(2025, 9, 23, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 2회차
-    datetime.datetime(2025, 9, 30, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 3회차
-    datetime.datetime(2025, 10, 7, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 4회차
-    datetime.datetime(2025, 10, 14, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 5회차
-    datetime.datetime(2025, 10, 21, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 6회차
-    datetime.datetime(2025, 10, 28, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 7회차
-    datetime.datetime(2025, 11, 4, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 8회차
-    datetime.datetime(2025, 11, 11, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 9회차
-    datetime.datetime(2025, 11, 18, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 10회차
-    datetime.datetime(2025, 11, 25, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 11회차
-    datetime.datetime(2025, 12, 2, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 12회차
-    datetime.datetime(2025, 12, 9, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 추가1회차
-    datetime.datetime(2025, 12, 16, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 추가2회차
-    datetime.datetime(2025, 12, 23, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 추가3회차
-    datetime.datetime(2025, 12, 30, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 추가4회차
+    datetime.datetime(2025, 9, 9, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 1회차
+    datetime.datetime(2025, 9, 16, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 2회차
+    datetime.datetime(2025, 9, 23, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 3회차
+    datetime.datetime(2025, 9, 30, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 4회차
+    datetime.datetime(2025, 10, 7, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 5회차
+    datetime.datetime(2025, 10, 14, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 6회차
+    datetime.datetime(2025, 10, 21, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 7회차
+    datetime.datetime(2025, 10, 28, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 8회차
+    datetime.datetime(2025, 11, 4, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 9회차
+    datetime.datetime(2025, 11, 11, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 10회차
+    datetime.datetime(2025, 11, 18, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 11회차
+    datetime.datetime(2025, 11, 25, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 12회차
+    datetime.datetime(2025, 12, 2, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 추가1회차
+    datetime.datetime(2025, 12, 9, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 추가2회차
+    datetime.datetime(2025, 12, 16, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 추가3회차
+    datetime.datetime(2025, 12, 23, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 추가4회차
 ]
 
 # 각 마감일의 설명
@@ -64,7 +63,6 @@ SESSION_NAMES = [
     "추가2회차",
     "추가3회차",
     "추가4회차",
-    "0회차",
     "1회차",
     "2회차",
     "3회차",
