@@ -41,22 +41,21 @@ DUE_DATES = [
     datetime.datetime(2025, 12, 9, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 3기 추가2회차
     datetime.datetime(2025, 12, 16, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 3기 추가3회차
     datetime.datetime(2025, 12, 23, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 3기 추가4회차
-    datetime.datetime(2026, 1, 6, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 4기 1회차
-    datetime.datetime(2026, 1, 13, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 4기 2회차
-    datetime.datetime(2026, 1, 20, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 4기 3회차
-    datetime.datetime(2026, 1, 27, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 4기 4회차
-    datetime.datetime(2026, 2, 3, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 4기 5회차
-    datetime.datetime(2026, 2, 10, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 4기 6회차
-    datetime.datetime(2026, 2, 17, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 4기 7회차
-    datetime.datetime(2026, 2, 24, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 4기 8회차
-    datetime.datetime(2026, 3, 3, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 4기 9회차
-    datetime.datetime(2026, 3, 10, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 4기 10회차
-    datetime.datetime(2026, 3, 17, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 4기 11회차
-    datetime.datetime(2026, 3, 24, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 4기 12회차
-    datetime.datetime(2026, 4, 7, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 4기 추가1회차
-    datetime.datetime(2026, 4, 14, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 4기 추가2회차
-    datetime.datetime(2026, 4, 21, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 4기 추가3회차
-    datetime.datetime(2026, 4, 28, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 4기 추가4회차
+    datetime.datetime(2026, 1, 13, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 4기 1회차
+    datetime.datetime(2026, 1, 20, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 4기 2회차
+    datetime.datetime(2026, 1, 27, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 4기 3회차
+    datetime.datetime(2026, 2, 3, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 4기 4회차
+    datetime.datetime(2026, 2, 10, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 4기 5회차
+    datetime.datetime(2026, 2, 17, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 4기 6회차
+    datetime.datetime(2026, 2, 24, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 4기 7회차
+    datetime.datetime(2026, 3, 3, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 4기 8회차
+    datetime.datetime(2026, 3, 10, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 4기 9회차
+    datetime.datetime(2026, 3, 17, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 4기 10회차
+    datetime.datetime(2026, 3, 24, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 4기 11회차
+    datetime.datetime(2026, 4, 7, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 4기 12회차
+    datetime.datetime(2026, 4, 14, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 4기 추가1회차
+    datetime.datetime(2026, 4, 21, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 4기 추가2회차
+    datetime.datetime(2026, 4, 28, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 4기 추가3회차
 ]
 
 # 각 마감일의 설명
@@ -111,5 +110,4 @@ SESSION_NAMES = [
     "4기 추가1회차",
     "4기 추가2회차",
     "4기 추가3회차",
-    "4기 추가4회차",
 ]
