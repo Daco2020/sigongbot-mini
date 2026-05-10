@@ -56,6 +56,22 @@ DUE_DATES = [
     datetime.datetime(2026, 4, 14, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 4기 추가1회차
     datetime.datetime(2026, 4, 21, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 4기 추가2회차
     datetime.datetime(2026, 4, 28, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 4기 추가3회차
+    datetime.datetime(2026, 5, 12, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 5기 0회차
+    datetime.datetime(2026, 5, 19, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 5기 1회차
+    datetime.datetime(2026, 5, 26, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 5기 2회차
+    datetime.datetime(2026, 6, 2, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 5기 3회차
+    datetime.datetime(2026, 6, 9, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 5기 4회차
+    datetime.datetime(2026, 6, 16, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 5기 5회차
+    datetime.datetime(2026, 6, 23, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 5기 6회차
+    datetime.datetime(2026, 6, 30, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 5기 7회차
+    datetime.datetime(2026, 7, 7, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 5기 8회차
+    datetime.datetime(2026, 7, 14, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 5기 9회차
+    datetime.datetime(2026, 7, 21, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 5기 10회차
+    datetime.datetime(2026, 7, 28, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 5기 11회차
+    datetime.datetime(2026, 8, 4, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 5기 12회차
+    datetime.datetime(2026, 8, 11, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 5기 추가1회차
+    datetime.datetime(2026, 8, 18, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 5기 추가2회차
+    datetime.datetime(2026, 8, 25, 5, 0, 0, tzinfo=ZoneInfo("Asia/Seoul")),  # 5기 추가3회차
 ]
 
 # 각 마감일의 설명
@@ -110,4 +126,20 @@ SESSION_NAMES = [
     "4기 추가1회차",
     "4기 추가2회차",
     "4기 추가3회차",
+    "5기 0회차",
+    "5기 1회차",
+    "5기 2회차",
+    "5기 3회차",
+    "5기 4회차",
+    "5기 5회차",
+    "5기 6회차",
+    "5기 7회차",
+    "5기 8회차",
+    "5기 9회차",
+    "5기 10회차",
+    "5기 11회차",
+    "5기 12회차",
+    "5기 추가1회차",
+    "5기 추가2회차",
+    "5기 추가3회차",
 ]
